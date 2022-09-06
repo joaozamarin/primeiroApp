@@ -3,6 +3,31 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  /** cinza claro **/
+  --ion-color-cinza-claro: #f3f3f3;
+	--ion-color-cinza-claro-rgb: 243,243,243;
+	--ion-color-cinza-claro-contrast: #000000;
+	--ion-color-cinza-claro-contrast-rgb: 0,0,0;
+	--ion-color-cinza-claro-shade: #d6d6d6;
+	--ion-color-cinza-claro-tint: #f4f4f4;
+  
+  /** laranja claro **/
+  --ion-color-laranja-claro: #ffda89;
+	--ion-color-laranja-claro-rgb: 255,218,137;
+	--ion-color-laranja-claro-contrast: #000000;
+	--ion-color-laranja-claro-contrast-rgb: 0,0,0;
+	--ion-color-laranja-claro-shade: #e0c079;
+	--ion-color-laranja-claro-tint: #ffde95;
+
+  /** laranja **/
+  --ion-color-laranja: #ffae00;
+	--ion-color-laranja-rgb: 255,174,0;
+	--ion-color-laranja-contrast: #000000;
+	--ion-color-laranja-contrast-rgb: 0,0,0;
+	--ion-color-laranja-shade: #e09900;
+	--ion-color-laranja-tint: #ffb61a;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -233,4 +258,31 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+.ion-color-laranja {
+	--ion-color-base: var(--ion-color-laranja);
+	--ion-color-base-rgb: var(--ion-color-laranja-rgb);
+	--ion-color-contrast: var(--ion-color-laranja-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-laranja-contrast-rgb);
+	--ion-color-shade: var(--ion-color-laranja-shade);
+	--ion-color-tint: var(--ion-color-laranja-tint);
+}
+
+.ion-color-laranja-claro {
+	--ion-color-base: var(--ion-color-laranja-claro);
+	--ion-color-base-rgb: var(--ion-color-laranja-claro-rgb);
+	--ion-color-contrast: var(--ion-color-laranja-claro-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-laranja-claro-contrast-rgb);
+	--ion-color-shade: var(--ion-color-laranja-claro-shade);
+	--ion-color-tint: var(--ion-color-laranja-claro-tint);
+}
+
+.ion-color-cinza-claro {
+	--ion-color-base: var(--ion-color-cinza-claro);
+	--ion-color-base-rgb: var(--ion-color-cinza-claro-rgb);
+	--ion-color-contrast: var(--ion-color-cinza-claro-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-cinza-claro-contrast-rgb);
+	--ion-color-shade: var(--ion-color-cinza-claro-shade);
+	--ion-color-tint: var(--ion-color-cinza-claro-tint);
 }

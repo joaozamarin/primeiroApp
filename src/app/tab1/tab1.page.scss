@@ -9,6 +9,7 @@ ion-label{
 
 img{
   border-radius: 15%;
+  border: 1px solid black;
 }
 
 
@@ -17,13 +18,24 @@ img{
 }
 
 ion-item{
-  border-bottom: 1px solid #e0ac08;
-  border-radius: 0 0 35px 0;
+  border-radius: 35px 0 35px 0;
+  margin-bottom: 10px;
 }
 
 ion-badge{
-  padding: 10px;
-  background: #f5e3a7;
+  padding: 12px;
+  background: #ffda89;
   color: black;
   margin-right: 5px;
+  border-radius: 20px 0 20px 0;
+}
+
+
+.preco{
+  border: 1px solid rgb(53, 53, 53);
+  padding: 10px;
+}
+
+ion-list{
+  background: #f3f3f3;
 }
